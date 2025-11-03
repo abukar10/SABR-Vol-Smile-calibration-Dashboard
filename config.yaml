@@ -1,0 +1,8 @@
+# Mapping of indices to Yahoo tickers (underlying + options symbol)
+indices:
+  FTSE100:
+    yahoo_symbol: "^FTSE"
+  S&P500:
+    yahoo_symbol: "^SPX"
+  EUROSTOXX50:
+    yahoo_symbol: "^STOXX50E"  # options availability may vary; fallback to CSV if none
